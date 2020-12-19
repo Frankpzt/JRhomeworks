@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*configs to be used for all cards*/
+$cardColor : rgb(240, 216, 216);
+$bodyBackgroundColor:rgb(225, 233, 183);
+$cardMargin : 2em;
+$imageSize : 364px;
+$cardBaseWidth : $imageSize;
+$btnRadius : 10%; 
+$btnColor : white;
+$btnBorderColor : none;
+$tagColor :BLACK;
+$tagTopPositionOffset : 10%;
+$tagRightPositionOffset : 5%;
+$likeBtnTopPositionOffset : 8%;
+$likeBtnLeftPositionOffset : 5%;
+
+
+
+body{
+    background-color: $bodyBackgroundColor;
+}
+
+.contents{
+    display:flex;
+    background-color: aliceblue;
+    width: $cardBaseWidth;
+    position: relative;
+}
+
+.card__base{
+    width: $cardBaseWidth;
+    margin: $cardMargin;
+}
+
+.cityName__tag{
+    padding: 5em;
+    background-repeat: no-repeat;
+    background-size: $imageSize;
+    position: relative;
+}
+
+.cityName__tag h2{
+    position: absolute;
+    top: $tagTopPositionOffset;
+    right: $tagRightPositionOffset;
+    font-size: 18px;
+    color: $tagColor;
+    border-color:$btnBorderColor;
+    text-align: center;
+    border-radius: $btnRadius;
+    background-color: $btnColor;
+    width: 90px;
+}
+
+.contents-city__description{
+    padding: 1em;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: 800;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4430147058823529) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%, rgba(250,248,243,0.07046568627450978) 100%, rgba(0,0,0,0.8827906162464986) 100%);
+}
+
+.contents-btn__like{
+    position: absolute;
+    top: $likeBtnTopPositionOffset;
+    left: $likeBtnLeftPositionOffset;
+}
+
+
+#image-spain{
+    background-image: url("/assets/images/Toledo-Spain.jpg");
+}
+
+#image-china{
+    background-image: url("/assets/images/Shanghai-China.jpg");
+}
+
+#image-japan{
+    background-image: url("/assets/images/Tokyo-Japan.jpg");
+}
+
+#image-france{
+    background-image: url("/assets/images/Paris-France.jpg");
+}
+
+#image-australia{
+    background-image: url("/assets/images/Brisbane-Australia.jpg");
+}
+
+#image-usa{
+    background-image: url("/assets/images/New York-USA.jpg");
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+

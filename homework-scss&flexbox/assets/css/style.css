@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*configs to be used for all cards*/
+body {
+  background-color: #e1e9b7;
+}
+
+.contents {
+  display: flex;
+  background-color: aliceblue;
+  width: 364px;
+  position: relative;
+}
+
+.card__base {
+  width: 364px;
+  margin: 2em;
+}
+
+.cityName__tag {
+  padding: 5em;
+  background-repeat: no-repeat;
+  background-size: 364px;
+  position: relative;
+}
+
+.cityName__tag h2 {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  font-size: 18px;
+  color: BLACK;
+  border-color: none;
+  text-align: center;
+  border-radius: 10%;
+  background-color: white;
+  width: 90px;
+}
+
+.contents-city__description {
+  padding: 1em;
+  text-align: justify;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: large;
+  font-weight: 800;
+  background: black;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4430147059) 0%, white 100%, white 100%, rgba(250, 248, 243, 0.0704656863) 100%, rgba(0, 0, 0, 0.8827906162) 100%);
+}
+
+.contents-btn__like {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+}
+
+#image-spain {
+  background-image: url("/assets/images/Toledo-Spain.jpg");
+}
+
+#image-china {
+  background-image: url("/assets/images/Shanghai-China.jpg");
+}
+
+#image-japan {
+  background-image: url("/assets/images/Tokyo-Japan.jpg");
+}
+
+#image-france {
+  background-image: url("/assets/images/Paris-France.jpg");
+}
+
+#image-australia {
+  background-image: url("/assets/images/Brisbane-Australia.jpg");
+}
+
+#image-usa {
+  background-image: url("/assets/images/New York-USA.jpg");
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style.css.map */
